@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.mozilla.org/*"
+        "*://*.developer.mozilla.org/*"
       ],
       "js": [
         "app.js"
