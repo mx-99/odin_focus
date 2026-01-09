@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Odin Focus",
+  "version": "1.0",
+  "description": "It removes distractions from learning resources linked in The Odin Project curriculum",
+  "icons": {
+    "48": "icons/center_focus_strong_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mozilla.org/*"
+      ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
+}
