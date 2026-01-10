@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "It removes distractions from learning resources linked in The Odin Project curriculum",
   "icons": {
-    "48": "center_focus_strong_48dp_1F1F1F_FILL0_wght400_GRAD0_opsz48.png"
+    "48": "icons/focus-48.png"
   },
   "content_scripts": [
     {
