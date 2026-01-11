@@ -3,9 +3,13 @@
   "name": "Odin Focus",
   "version": "1.0",
   "description": "It removes distractions from learning resources linked in The Odin Project curriculum",
+  "homepage_url": "https://github.com/mx-99/odin_focus",
   "icons": {
     "48": "icons/focus-48.png"
   },
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
       "matches": [
