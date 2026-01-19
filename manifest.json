@@ -10,14 +10,22 @@
   "permissions": [
     "activeTab"
   ],
+
+  "browser_action": {
+    "default_title": "Odin Focus",
+    "default_popup": "popup/choose_beast.html"
+  },
   "content_scripts": [
     {
       "matches": [
-        "*://*.developer.mozilla.org/*"
+        "*://*.developer.mozilla.org/*",
+        "*://*.youtube.com/*"
       ],
       "js": [
         "app.js"
-      ]
+      ],
+          "css": ["hide.css"],
+    "run_at": "document_start"
     }
   ]
 }
