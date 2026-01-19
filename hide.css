@@ -1,0 +1,17 @@
+/* YouTube */
+#container,
+#secondary,
+#below {
+  display: none !important;
+}
+
+/* MDN */
+.navigation,
+.reference-layout__sidebar,
+.reference-layout__toc,
+section[aria-labelledby="see_also"],
+section[aria-labelledby="feedback"],
+.footer__mdn,
+.footer__mozilla {
+  display: none !important;
+}
