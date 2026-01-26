@@ -1,5 +1,6 @@
 /* YouTube */
-#container,
+/* #container, */
+
 #secondary,
 #below {
   display: none !important;
@@ -13,5 +14,51 @@ section[aria-labelledby="see_also"],
 section[aria-labelledby="feedback"],
 .footer__mdn,
 .footer__mozilla {
+  display: none !important;
+}
+
+/* sitepoint.com */
+.w-full.overflow-y-auto.sticky {
+  display: none !important;
+}
+
+.w-full.overflow-y-auto.sticky,
+.xl:hidden,
+.inline-content,
+.container-2xl{
+  display: none !important;
+}
+
+ul.pt-0.pb-4.px-4 {
+  display: none;
+}
+.inline-content[data-takeover="true"] {
+  display: none !important;
+}
+.inline-content[data-order= "true"]{
+  display: none !important;
+}
+
+.xl\:hidden {
+  display: none !important;
+}
+picture{
+  display: none !important;
+}
+#footer-takeover{
+  display: none !important;
+}
+#bsa-zone_1719474980702-2_123456{
+  display: none !important;
+} 
+
+[class*="bg-[linear-gradient(155deg"] {
+  display: none !important;
+}
+
+.inline-content[data-type="display"][data-unit^="bsa-zone"] {
+  display: none !important;
+}
+.w-full.flex.xl\:justify-center.bg-accent-3.fixed.h-20.xl\:h-14.z-\[2\] {
   display: none !important;
 }
