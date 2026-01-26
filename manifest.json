@@ -19,7 +19,8 @@
     {
       "matches": [
         "*://*.developer.mozilla.org/*",
-        "*://*.youtube.com/*"
+        "*://*.youtube.com/*",
+        "*://*.sitepoint.com/*"
       ],
       "js": [
         "app.js"
