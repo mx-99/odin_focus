@@ -8,7 +8,7 @@
 
 /* MDN */
 .navigation,
-.reference-layout__sidebar,
+#main-sidebar,
 .reference-layout__toc,
 section[aria-labelledby="see_also"],
 section[aria-labelledby="feedback"],
