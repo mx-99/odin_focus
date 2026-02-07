@@ -62,3 +62,17 @@ picture{
 .w-full.flex.xl\:justify-center.bg-accent-3.fixed.h-20.xl\:h-14.z-\[2\] {
   display: none !important;
 }
+
+/* tutsplus.com */
+.global-new-nav__header-bottom,
+.sign-up-component,
+.ecosystem-highlight,
+footer,
+.w-full,
+#footer-promo-component{
+  display: none !important;
+}
+[data-controller="announcement-bar"]{
+  display: none !important;
+}
+
