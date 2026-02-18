@@ -10,10 +10,9 @@
   "permissions": [
     "activeTab"
   ],
-
   "browser_action": {
     "default_title": "Odin Focus",
-    "default_popup": "popup/choose_beast.html"
+    "default_popup": "popup/popup.html"
   },
   "content_scripts": [
     {
@@ -21,13 +20,16 @@
         "*://*.developer.mozilla.org/*",
         "*://*.youtube.com/*",
         "*://*.sitepoint.com/*",
-        "*://*.tutsplus.com/*"
+        "*://*.tutsplus.com/*",
+        "*://*.digitalocean.com/*"
       ],
       "js": [
         "app.js"
       ],
-          "css": ["hide.css"],
-    "run_at": "document_start"
+      "css": [
+        "css/hide.css"
+      ],
+      "run_at": "document_start"
     }
   ]
 }
