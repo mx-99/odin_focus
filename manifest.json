@@ -21,7 +21,8 @@
         "*://*.youtube.com/*",
         "*://*.sitepoint.com/*",
         "*://*.tutsplus.com/*",
-        "*://*.digitalocean.com/*"
+        "*://*.digitalocean.com/*",
+        "*://*.dev.to/*"
       ],
       "js": [
         "app.js"
