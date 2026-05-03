@@ -95,3 +95,8 @@ nav,
 .WasThisHelpfulStyles__StyledShareContainer-sc-5f453fe1-1 {
   display: none !important;
 }
+
+/* dev.to  */
+#article-show-primary-sticky-nav{
+  display: none !important;
+}
