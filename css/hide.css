@@ -96,7 +96,15 @@ nav,
   display: none !important;
 }
 
+/* wes boss */
+._ContentNavStyles_sqgvv_1,
+._NavStyles_1ptq8_9,
+._TOCAsideStyles_cdlbu_1,
+footer {
+  display: none !important;
+}
+
 /* dev.to  */
-#article-show-primary-sticky-nav{
+#article-show-primary-sticky-nav {
   display: none !important;
 }
