@@ -22,6 +22,7 @@
         "*://*.sitepoint.com/*",
         "*://*.tutsplus.com/*",
         "*://*.digitalocean.com/*",
+        "*://*.wesbos.com/*",
         "*://*.dev.to/*"
       ],
       "js": [
