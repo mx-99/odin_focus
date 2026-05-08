@@ -1,110 +1,96 @@
 /* YouTube */
-/* #container, */
-
-#secondary,
-#below {
+.odin-focus-enabled #secondary,
+.odin-focus-enabled #below {
   display: none !important;
 }
 
 /* MDN */
-.navigation,
-#main-sidebar,
-.reference-layout__toc,
-section[aria-labelledby="see_also"],
-section[aria-labelledby="feedback"],
-.footer__mdn,
-.footer__mozilla {
+.odin-focus-enabled .navigation,
+.odin-focus-enabled #main-sidebar,
+.odin-focus-enabled .reference-layout__toc,
+.odin-focus-enabled section[aria-labelledby="see_also"],
+.odin-focus-enabled section[aria-labelledby="feedback"],
+.odin-focus-enabled .footer__mdn,
+.odin-focus-enabled .footer__mozilla {
   display: none !important;
 }
 
 /* sitepoint.com */
-.w-full.overflow-y-auto.sticky {
+.odin-focus-enabled .w-full.overflow-y-auto.sticky {
   display: none !important;
 }
-
-.w-full.overflow-y-auto.sticky,
-.xl:hidden,
-.inline-content,
-.container-2xl {
+.odin-focus-enabled .w-full.overflow-y-auto.sticky,
+.odin-focus-enabled .xl\:hidden,
+.odin-focus-enabled .inline-content,
+.odin-focus-enabled .container-2xl {
   display: none !important;
 }
-
-ul.pt-0.pb-4.px-4 {
+.odin-focus-enabled ul.pt-0.pb-4.px-4 {
   display: none;
 }
-
-.inline-content[data-takeover="true"] {
+.odin-focus-enabled .inline-content[data-takeover="true"] {
   display: none !important;
 }
-
-.inline-content[data-order="true"] {
+.odin-focus-enabled .inline-content[data-order="true"] {
   display: none !important;
 }
-
-.xl\:hidden {
+.odin-focus-enabled .xl\:hidden {
   display: none !important;
 }
-
-picture {
+.odin-focus-enabled picture {
   display: none !important;
 }
-
-#footer-takeover {
+.odin-focus-enabled #footer-takeover {
   display: none !important;
 }
-
-#bsa-zone_1719474980702-2_123456 {
+.odin-focus-enabled #bsa-zone_1719474980702-2_123456 {
   display: none !important;
 }
-
-[class*="bg-[linear-gradient(155deg"] {
+.odin-focus-enabled [class*="bg-[linear-gradient(155deg"] {
   display: none !important;
 }
-
-.inline-content[data-type="display"][data-unit^="bsa-zone"] {
+.odin-focus-enabled .inline-content[data-type="display"][data-unit^="bsa-zone"] {
   display: none !important;
 }
-
-.w-full.flex.xl\:justify-center.bg-accent-3.fixed.h-20.xl\:h-14.z-\[2\] {
+.odin-focus-enabled .w-full.flex.xl\:justify-center.bg-accent-3.fixed.h-20.xl\:h-14.z-\[2\] {
   display: none !important;
 }
 
 /* tutsplus.com */
-.global-new-nav__header-bottom,
-.sign-up-component,
-.ecosystem-highlight,
-footer,
-.w-full,
-#footer-promo-component {
+.odin-focus-enabled .global-new-nav__header-bottom,
+.odin-focus-enabled .sign-up-component,
+.odin-focus-enabled .ecosystem-highlight,
+.odin-focus-enabled footer,
+.odin-focus-enabled .w-full,
+.odin-focus-enabled #footer-promo-component {
+  display: none !important;
+}
+.odin-focus-enabled [data-controller="announcement-bar"] {
   display: none !important;
 }
 
-[data-controller="announcement-bar"] {
-  display: none !important;
-}
-
-/*digitalocean*/
-.HeaderStyles__StyledHeader-sc-2183282b-0,
-nav,
-.Gridstyles-sc-isu2n3-0,
-.CTANotestyles__StyledCTANote-sc-hfqhug-0,
-
-.ContributorsFooterStyles__StyledRecordInfoContainer-sc-dcaeecb5-8,
-.CTASimplestyles__StyledCTASimple-sc-j39es-0,
-.Tabsstyles__StyledMediaCenterTabs-sc-dxgfsg-1,
-.WasThisHelpfulStyles__StyledShareContainer-sc-5f453fe1-1 {
+/* digitalocean */
+.odin-focus-enabled .HeaderStyles__StyledHeader-sc-2183282b-0,
+.odin-focus-enabled nav,
+.odin-focus-enabled .Gridstyles-sc-isu2n3-0,
+.odin-focus-enabled .CTANotestyles__StyledCTANote-sc-hfughq-0,
+.odin-focus-enabled .ContributorsFooterStyles__StyledRecordInfoContainer-sc-dcaeecb5-8,
+.odin-focus-enabled .CTASimplestyles__StyledCTASimple-sc-j39es-0,
+.odin-focus-enabled .Tabsstyles__StyledMediaCenterTabs-sc-dxgfsg-1,
+.odin-focus-enabled .WasThisHelpfulStyles__StyledShareContainer-sc-5f453fe1-1 {
   display: none !important;
 }
 
 /* wes boss */
-._ContentNavStyles_sqgvv_1,
-._NavStyles_1ptq8_9,
-._TOCAsideStyles_cdlbu_1,
-footer {
+.odin-focus-enabled ._ContentNavStyles_sqgvv_1,
+.odin-focus-enabled ._NavStyles_1ptq8_9,
+.odin-focus-enabled ._TOCAsideStyles_cdlbu_1,
+.odin-focus-enabled ._BannerStyles_zrzos_1,
+.odin-focus-enabled footer {
   display: none !important;
 }
 
-/* dev.to  */
-#article-show-primary-sticky-nav {
+/* dev.to */
+.odin-focus-enabled #article-show-primary-sticky-nav {
   display: none !important;
 }
